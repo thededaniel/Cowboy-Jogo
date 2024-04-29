@@ -9,6 +9,7 @@ const jump = () => {
   }, 500);
 } 
 
+// A parada começa a dar errado aqui
 const loop = setInterval(() => {
 
  const cactoPosition = cacto.offsetLeft;
